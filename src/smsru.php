@@ -10,7 +10,7 @@
  * @version 1.4.2
  */
 
-namespace Zelenin;
+namespace webmechanica;
 
 class smsru
 {

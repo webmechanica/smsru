@@ -1,24 +1,25 @@
 # sms_ru
 
 PHP-класс для работы с api сервиса [sms.ru](http://sms.ru)
+Первоначально пакет был создан [Александром Зелениным](https://github.com/zelenin). Но впоследствии пакет был удален. Выложен только потому, что используется в проектах компании "Вебмеханика".
 
 ## Использование
 
 Подключение класса:
 
-    require_once 'src/Zelenin/smsru.php';
+    require_once 'src/webmechanica/smsru.php';
 
 Простая авторизация (с помощью api_id):
 
-    $sms = new \Zelenin\smsru( $api_id );
+    $sms = new \webmechanica\smsru( $api_id );
 
 Усиленная авторизация (с помощью api_id, логина и пароля):
 
-    $sms = new \Zelenin\smsru( $api_id, $login, $password );
+    $sms = new \webmechanica\smsru( $api_id, $login, $password );
 
 Усиленная авторизация (с помощью логина и пароля):
 
-	$sms = new \Zelenin\smsru( null, $login, $password );
+	$sms = new \webmechanica\smsru( null, $login, $password );
 
 Отправка SMS:
 

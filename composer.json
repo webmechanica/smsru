@@ -1,5 +1,5 @@
 {
-	"name": "zelenin/smsru",
+	"name": "webmechanica/smsru",
 	"description": "PHP-класс для работы с api сервиса [sms.ru](http://sms.ru)",
 	"version": "1.4.2",
 	"type": "library",
@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Zelenin\\": "src/"
+			"webmechanica\\": "src/"
 		}
 	},
 	"minimum-stability": "stable"

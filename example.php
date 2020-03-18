@@ -2,9 +2,9 @@
 
 require_once 'vendor/autoload.php';
 
-$sms = new \Zelenin\smsru( 'api_id', 'login', 'password' );
-// $sms = new \Zelenin\smsru( 'api_id' );
-// $sms = new \Zelenin\smsru( null, 'login', 'password' );
+$sms = new \webmechanica\smsru( 'api_id', 'login', 'password' );
+// $sms = new \webmechanica\smsru( 'api_id' );
+// $sms = new \webmechanica\smsru( null, 'login', 'password' );
 
 // $result = $sms->sms_send( '79112223344', 'Текст SMS' );
 
